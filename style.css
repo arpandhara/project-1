@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: auto;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#nav {
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+#heading {
+    margin-top: 40px;
+}
+
+#heading h1 {
+    font-size: 10vw;
+    font-family: "General Sans";
+    line-height: .9;
+    opacity: .6;
+    margin-left: 35px;
+}
+
+#heading #second-h1 {
+    margin-left: 11.8vw;
+    /*181*/
+}
+
+.blocktext {
+    width: fit-content;
+    /* background-color: red; */
+}
+
+.blocktext h5 {
+    text-align: right;
+    /* opacity: .6; */
+    font-size: 15px;
+}
+
+#chotiheadings {
+    margin-top: 100px;
+    padding-right: 40px;
+}
+
+#chotiheadings h5 {
+    text-align: right;
+    /* opacity: .6; */
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-top: .5vw;
+}
+
+#herofooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: absolute;
+    bottom: 25px;
+    width: 95%;
+}
+
+#herofooter a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3vw;
+}
+
+#herofooter #iconset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+#herofooter .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(190, 189, 189, 0.842);
+}
+
+#herofooter .circle i {
+    color: black;
+    size: 30px;
+}
