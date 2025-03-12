@@ -30,6 +30,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* position: fixed;
+    top: 0;
+    background-color: black; */
 }
 
 #nav a {
@@ -116,4 +119,113 @@ body {
 #herofooter .circle i {
     color: black;
     size: 30px;
+}
+#second{
+    width: 100%;
+    height: 150vh;
+    background-color: black;
+    padding-top: 200px;
+    color: white;
+    padding-right: 7vw;
+    padding-left: 3vw;
+}
+.elem{
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.329);
+    padding: 4vw 3vw;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem h1{
+    text-transform: uppercase;
+    font-size: 7vw;
+    opacity: .6;
+}
+.elem h5{
+    opacity: .6;
+    font-size: 1.1vw;
+}
+.elemfirst{
+    border-top: 1px solid rgba(255, 255, 255, 0.329);
+}
+.elem img{
+    position: absolute;
+    height: 39%;
+    display: none;
+    z-index: 10;
+}
+#about{
+    width: 100%;
+    background-color: black;
+    padding: 10vw 10vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding-left: 35vw;
+    gap:110px;
+}
+#textabout {
+    width: 25rem;
+}
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+    font-size: 1.5vw;
+}
+#about img{
+    height: 200px;
+}
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+    font-size: 1.1vw;
+}
+#textabout a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 22px;
+    border: 1px solid white;
+    border-radius: 100px;
+    font-size: 12px;
+}
+#suscribe{
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+    padding-bottom: 6vw;
+}
+#suscribe h5,h3{
+    text-transform: uppercase;
+    opacity: .6;
+}
+#suscribe h3{
+    font-size: 17px;
+    margin-top: 10px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px;
+    background-color: black;
+    color: white;
+}
+#footerleft{
+    display: flex;
+    gap: 20px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+#footerright{
+    display: flex;
+    gap: 30px;
 }
