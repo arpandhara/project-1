@@ -11,12 +11,34 @@ body {
     width: 100%;
 }
 
+#minicircle{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: white;
+    z-index: 900;
+    border-radius: 50%;
+    transition: all cubic-bezier(0.19 , 1 , 0.22 , 1) 0.2s;
+}
+
+.bounding{
+    width: fit-content;
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+.bounding .boundingelem{
+    transform:  translateY(100%);
+}
+
 #main {
     width: 100%;
     height: auto;
+    background-color: black;
 }
 
 #hero {
+    position: relative;
     width: 100%;
     height: 100vh;
     background-color: black;
@@ -61,6 +83,9 @@ body {
 .blocktext {
     width: fit-content;
     /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
 .blocktext h5 {
@@ -72,6 +97,9 @@ body {
 #chotiheadings {
     margin-top: 100px;
     padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
 #chotiheadings h5 {
@@ -152,8 +180,8 @@ body {
 }
 .elem img{
     position: absolute;
-    height: 39%;
-    display: none;
+    height: 11%;
+    opacity: 0;
     z-index: 10;
 }
 #about{
